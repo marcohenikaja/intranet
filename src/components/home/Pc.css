@@ -1,0 +1,19 @@
+/* Ajoutez ces styles pour le centrage du Heading */
+.hprice .heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Les styles pour votre section et autres éléments restent inchangés */
+.hprice.padding {
+  padding: 20px;
+}
+
+.price.container.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+  justify-content: center;
+}

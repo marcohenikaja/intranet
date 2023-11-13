@@ -1,0 +1,36 @@
+.video-section {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  padding: 0 20px; /* Ajoutez une marge à gauche et à droite */
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  overflow-x: hidden; /* Ajoutez cette ligne pour masquer le débordement horizontal */
+  margin: 0 -20px; /* Compensez la marge ajoutée à la vidéo-section */
+}
+
+.video video {
+  width: 80%; /* Ajustez la largeur de la vidéo selon vos préférences */
+  height: auto; /* Maintient le rapport d'aspect de la vidéo */
+}
+
+
+/* Autres styles restent inchangés */
+
+
+h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .video-container {
+    flex-direction: column;
+    overflow-x: hidden;
+    margin: 0; /* Réinitialisez la marge pour les petits écrans */
+  }
+}

@@ -1,0 +1,52 @@
+/* pricecard.css */
+
+.items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto; 
+  margin: 1px;
+  padding: 10px; /* Augmentez légèrement la marge intérieure */
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Ajustez la marge inférieure pour l'espacement entre les cartes */
+}
+
+.items img {
+  max-width: 100%;
+  height: auto;
+}
+
+.items h4 {
+  font-size: 20px;
+}
+
+.items p {
+  font-size: 14px;
+}
+
+.items a {
+  text-decoration: none;
+}
+
+/* Médias queries pour l'ajustement du style sur des écrans plus petits */
+@media screen and (max-width: 768px) {
+  .items {
+    margin-bottom: 1px; /* Réduisez la marge inférieure pour les écrans plus petits */
+  }
+  .items h4 {
+    font-size: 16px;
+  }
+  .items p {
+    font-size: 12px;
+  }
+  .items a {
+    font-size: 12px;
+  }
+  /* Ajout de styles pour les petites écrans, par exemple, réduire la taille de la bordure */
+  .items.small-screen {
+    border: 1px solid #ddd;
+  }
+}

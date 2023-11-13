@@ -1,0 +1,62 @@
+
+/* Ajoutez cette classe pour colorer le nœud SG en rose */
+.node-sg {
+  background-color: pink;
+}
+
+/* Styles pour les autres nœuds */
+.node {
+  border: 2px solid #555;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.node:hover {
+  transform: scale(1.05);
+}
+
+.node-content {
+  background-color: #ffaa33;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.node-children {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+
+.poles-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px; /* Espace entre les nœuds */
+}
+
+.back0{
+  background-image: url("../../../../frontend/src/img/org1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 30%;
+  padding-right: 50px;
+  color: #fff;
+  text-align: center;
+}

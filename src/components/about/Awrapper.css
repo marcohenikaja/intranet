@@ -1,0 +1,81 @@
+/* Awrapper.css */
+
+/* Styles généraux */
+.custom-awrapper {
+    background-image: url("./awrapper.jpg"); /* Ajoutez le chemin correct vers votre image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px; /* Ajoutez d'autres styles au besoin */
+  }
+  
+  .custom-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    /* Ajoutez d'autres styles au besoin */
+  }
+  
+  .custom-box {
+    border-radius: 8px;
+    overflow: hidden;
+    /* Ajoutez d'autres styles au besoin */
+  }
+  
+  .custom-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    color: white; /* Couleur du texte en blanc */
+    /* Ajoutez d'autres styles au besoin */
+  }
+  
+  .custom-img img {
+    max-width: 100%;
+    height: auto;
+    /* Ajoutez d'autres styles au besoin */
+  }
+  
+  .custom-text {
+    max-height: 100%;
+    overflow: hidden;
+    color: white; /* Couleur du texte en blanc */
+    /* Ajoutez d'autres styles au besoin */
+  }
+  
+  .custom-text h1 {
+    font-size: 2rem; /* Taille relative pour le titre */
+    margin: 10px 0;
+    /* Ajoutez d'autres styles au besoin */
+  }
+  
+  .custom-text h3 {
+    font-size: 1.5rem; /* Taille relative pour le sous-titre */
+    margin: 0;
+    /* Ajoutez d'autres styles au besoin */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .custom-container {
+      grid-template-columns: repeat(2, 1fr);
+      /* Ajoutez d'autres styles responsives au besoin */
+    }
+  
+    .custom-flex {
+      padding: 10px;
+      /* Ajoutez d'autres styles responsives au besoin */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .custom-container {
+      grid-template-columns: 1fr;
+      /* Ajoutez d'autres styles responsives au besoin */
+    }
+  }
+  
