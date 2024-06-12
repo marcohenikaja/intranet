@@ -134,7 +134,7 @@ function App() {
             
             
 
-            {/* file manager */}
+            {/* file manager  tokon ho hita anaty git */}
             <Route path="/directorytree" element={<Filemanager />} />
 
 
@@ -158,4 +158,6 @@ function App() {
   );
 }
 
+
+// code teste
 export default App;
